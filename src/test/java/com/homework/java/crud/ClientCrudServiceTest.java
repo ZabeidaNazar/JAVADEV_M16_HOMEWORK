@@ -1,6 +1,5 @@
 package com.homework.java.crud;
 
-import com.homework.java.crud.ClientCrudService;
 import com.homework.java.entity.Client;
 import org.hibernate.exception.ConstraintViolationException;
 import org.hibernate.exception.DataException;
