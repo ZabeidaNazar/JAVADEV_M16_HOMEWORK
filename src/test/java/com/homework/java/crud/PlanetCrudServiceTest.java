@@ -1,6 +1,5 @@
 package com.homework.java.crud;
 
-import com.homework.java.crud.PlanetCrudService;
 import com.homework.java.entity.Planet;
 import org.hibernate.exception.ConstraintViolationException;
 import org.junit.jupiter.api.Assertions;
