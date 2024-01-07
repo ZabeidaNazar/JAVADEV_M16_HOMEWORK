@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-//    id 'jacoco'
 }
 
 group = 'com.homework.java'
@@ -26,18 +25,5 @@ dependencies {
 
 test {
     useJUnitPlatform()
-//    finalizedBy jacocoTestReport
 }
 
-//jacoco {
-//    toolVersion = "0.8.9"
-//    reportsDirectory = layout.buildDirectory.dir("${rootDir}/JacocoReport")
-//}
-
-clean.doFirst {
-    delete "${rootDir}/JacocoReport"
-}
-
-//jacocoTestReport {
-//    dependsOn test
-//}
